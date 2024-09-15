@@ -37,4 +37,16 @@ const householdItems = [
     { name: "Scented Candle", ability: "Heals 1 life point and allows you to shield against 1 attack next turn." },
     { name: "Dishwasher", ability: "Heals 1 life point and allows you to choose a card from your discard pile to return to your hand." },
     { name: "Plunger", ability: "Discards all negative effects from you." },
-    { name: "Wh
+    { name: "Whisk", ability: "Deals 1 damage and allows you to draw a card." },
+    { name: "Fire extonguisher", ability: "Negates 3 damage from one attack this round." },
+    { name: "Laundrey Basket", ability: "Discard 1 card, draw 2 cards." },
+    { name: "Dustpan", ability: "Gain one life, and your opponent discards a card." },
+    { name: "Yardstick", ability: "Deals 1 damage and you may play another card." },
+    { name: "Tissue Box", ability: "Heals 1 life point and allows you to draw a card." },
+    { name: "Basting Brush", ability: "Deals 1 damage and doubles the effect of the next card you play." },
+    { name: "Potted Plant", ability: "Heals 3 life but you canot attack next turn." },
+    { name: "Cutting Board", ability: "Deals 3 damage, your oppeonent draws a card." },
+    { name: "Oven Mitt", ability:  "Negates 2 damage from one attack this round." },
+    { name: "Shovel", ability: "Deals 1 damage and put one card from your graveyard back into your hand." },
+    { name: "Coasters", ability: "heals 1 life point and prevents the next attack." },];
+export default householdItems;
