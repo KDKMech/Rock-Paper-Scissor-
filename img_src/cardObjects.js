@@ -1,4 +1,4 @@
-const householdItems = [
+export const householdItems = [
     { name: "Rock", ability: "Deals 2 damage to the opponent." },
     { name: "Paper", ability: "Protects from the next 2 damage dealt to you." },
     { name: "Scissors", ability: "Deals 1 damage and discards one card from the opponent's hand." },
@@ -49,4 +49,3 @@ const householdItems = [
     { name: "Oven Mitt", ability:  "Negates 2 damage from one attack this round." },
     { name: "Shovel", ability: "Deals 1 damage and put one card from your graveyard back into your hand." },
     { name: "Coasters", ability: "heals 1 life point and prevents the next attack." },];
-export default householdItems;

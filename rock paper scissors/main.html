@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<input id="input" placeholder="Type a card name">
-<button>submit</button>
-<h1></h1>
-    <script src = 'index.js'></script>
+
+
+    <!-- Players container -->
+    <div id="players"></div>
+
+        <!-- player1 container-->
+        <div id="player1Side">
+            
+                <h1 class="player" id="player1">PLAYER 1</h1> 
+
+
+                <h1 id="player1Life"></h1>
+            <div class="playZone"><span id="player1PlayZone">
+                <input class="inputBar" id="input1" placeholder="Select a valid card">
+                <button id="submit1">submit</button>
+
+            </span>
+            </div>
+        </div>
+
+        <!-- player2 container-->
+        <div id="player2Side">
+        
+                <h1 class="player" id="player2">PLAYER 2</h1>   
+
+
+                <h1 id="player2Life"></h1>
+            <div class="playZone"><span id="player2PlayZone">
+                <input class="inputBar" id="input2" placeholder="Select a valid card">
+                <button id="submit2">submit</button>
+
+            </span>
+            </div>
+        </div>
+    </div>
+
+    <!--JS Link-->
+    <script src="control.js"></script>
+
 </body>
 </html>

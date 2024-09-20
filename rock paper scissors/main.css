@@ -1,0 +1,10 @@
+#player2Side {
+    color: red;
+    float: right;
+    text-align: right;
+}
+
+#player1Side {
+    color: blue;
+    float: left;
+}
