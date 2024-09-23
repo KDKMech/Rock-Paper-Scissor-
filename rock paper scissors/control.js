@@ -1,4 +1,14 @@
 //this is for all the functions for the rock paper scissors game
+
+
+import {rock} from "./function.js";
+import {paper} from "./function.js";
+import {scissors} from "./function.js";
+
+
+
+
+
 let player1 = {};// the player objects
 let player2 = {};
 
@@ -24,7 +34,9 @@ const inputBar2 = document.getElementById("input2");
 
 
 const cards = {
-    rock: rock
+    rock: rock,
+    paper: paper,  
+    scissors: scissors
 }
 
 
@@ -43,7 +55,7 @@ submitBtn1.addEventListener("click", () => {
     } else {
         console.log("Invalid choice");
     }
-});
+}); 
 
 submitBtn2.addEventListener("click", () => {
     let choice = inputBar2.value.toLowerCase();
@@ -62,11 +74,11 @@ submitBtn2.addEventListener("click", () => {
 
     player1Life = player1Life;
     player2Life = player2Life;
-});
+}); 
 
 
 
-function checkFunctionality() {  // this checkws if the javascript is running and logs life of players
+export function checkFunctionality() {  // this checkws if the javascript is running and logs life of players
     console.log("Javascript is running");
     console.log(player1Life, player2Life);
 }
@@ -78,11 +90,5 @@ function sideCheck() {
 }
 
 
-
-
-function rock() { //rock function should cause the opponent to lose 2 life
-     opponentlife = opponentlife - 2;
-     checkFunctionality();
-    }
 
 
